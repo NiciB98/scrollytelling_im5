@@ -1,6 +1,7 @@
 # scrollytelling_im5
 
 Dieses README soll euch helfen zu verstehen, welche Überlegungen ich bei meinem Scrollytelling Projekt gemacht habe. Ich habe für mein Projket mit HTML, CSS und Javascript gearbeitet. Ausserdem wurde eine Library (scrollmagic) eingebunden.
+<script></script> und <style></style> Tags dienen der besseren Darstellung durch farbliche Kennzeichnung.
 
 Die oberen Zeilen von script.js und scrolly.html kommen noch ohne Library aus.
 1. <div class="scrollytext animated_element"> "style.css" und "script.js"
@@ -42,6 +43,7 @@ Nun zu scrollmagic.
     triggerElement: '#box1',
     }).setClassToggle('#box1', 'show').addTo(controller);</script>
 
-In diesem Beispiel: <section id="box1" class="box">
+In scrolly.html: <section id="box1" class="box">
 
-4. 
+4. <script>}).setClassToggle('#box1', 'show').addTo(controller);</script>
+   Hier wird angegeben wie
