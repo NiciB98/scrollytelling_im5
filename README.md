@@ -46,4 +46,6 @@ Nun zu scrollmagic.
 In scrolly.html: <section id="box1" class="box">
 
 4. <script>}).setClassToggle('#box1', 'show').addTo(controller);</script>
-   Hier wird angegeben wie
+   Hier wird ähnliches getan wie oben mit reinem Vanilla Javascript. Zu "#box1" wird on scroll die Klasse "show" hinzugefügt, sobald "#box1"
+   im Viewport ist. Ist "#box1" nicht mehr im Viewport wird die Klasse "show" entfernt.
+   5. Controller: <script>.addTo(controller)</script> fügt die vorherige Aktion zum Controller hinzu. Der Controller löst die Scroll-Ereignisse aus.
